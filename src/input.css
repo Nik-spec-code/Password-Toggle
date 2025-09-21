@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @source "./**/*.{html, js}";
+
+@theme {
+    --shadow-blur: 0px 0px 2px #B484FF, 0px 0px 4px #B484FF, 0px 0px 6px #B484FF, 0px 0px 8px #B484FF, 0px 0px 10px #B484FF
+}

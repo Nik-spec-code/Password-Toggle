@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Toggle</title>
     <link rel="stylesheet" href="/dist/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
-<body>
-    
+
+<body class="h-screen w-full bg-gray-900 flex items-center justify-center">
+    <div id="container" class="flex items-center justify-between gap-3.5 border-2 py-1.5 px-3 border-violet-600 rounded-xl transition-all duration-300 ease-in-out focus-within:shadow-blur">
+        <input type="password" name="password" id="password" placeholder="Enter your password" class="text-gray-100 outline-none border-none placeholder:text-gray-400">
+        <i id="eyeIcon" class="ri-eye-off-line text-gray-100 text-lg cursor-pointer transition-all duration-300 ease-linear"></i>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
